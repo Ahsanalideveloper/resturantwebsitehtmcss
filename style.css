@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.continer{
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 50px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: white;
+}
+.bannerparent {
+    width: 100%;
+    height: 140vh;
+    background-image: url(images/home.jpg.webp);
+    background-size: 100% 100%;
+
+}
+.navparent{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    /* background-color: #232323;  */
+}
+.navchild{
+    width: 70vw;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto; 
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-style: normal;
+    color: white;  
+    font-weight: 700;
+}
+.logo p{
+    font-size: 19px;
+    font-weight: 300;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+.navlink ul {
+    display: flex;
+}
+.navlink ul li{
+    font-size: 19px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+     text-transform: uppercase;
+     list-style-type: none;
+}
+.navlink ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.navlink ul li a:hover{
+    color: #b49383;
+}
+.para p{
+    height:6vh;
+    width: 15vw;
+    border: 2px solid white;
+    font-size: 20px;
+    font-family: "PT Sans Narrow", sans-serif;
+     font-weight: 600;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.bannertext{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.text{
+    position: relative;
+    top: 20%;
+    z-index: 150;
+}
+.text h2{
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+    color: #b49383;
+}
+.text h1{
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.text p{
+    font-size: 20px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+/* expericences */
+.expcard{
+    height: 50vh;
+    width: 35vw;
+    border: 2px solid #b49383;
+    background-color: white;
+    position: relative;
+    right: 10%;
+  
+
+}
+.expimages img , .expimages1 img{
+    height: 72vh;
+    width: 19vw;
+}
+.experienceschild {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto; 
+    padding-left: 200px;
+}
+.experiencesparent{
+    width: 100%;
+}
+.expcard1{
+    width: 80%;
+    height: 40%;
+    text-align: justify;
+    margin:60px auto;
+}
+.expcard1 h2{
+    font-size: 36px;
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    color: #b49383;
+}
+.expcard1 h1{
+    font-size: 48px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 500;
+    color: #232323;
+    margin-top: 20px;
+}
+.expcard1 p{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #636363;
+    margin-top: 45px;
+    line-height: 30px;
+}
+/* food */
+.foodparent{
+    height:60vh;
+    width: 100%;
+    background-image: url(images/video.jpg);
+    background-size: 100% 100%;
+    margin-top: 80px;
+    position: relative;
+}
+.foodicon h1{
+    text-align: center;
+    padding-top: 150px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+.foodicon i{
+    color: white;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* dish */
+.dishcard{
+    height: 49vh;
+    width: 35vw;
+    border: 2px solid #b49383;
+    background-color: white;
+    position: relative;
+    left: 10%;
+}
+.dishimages img{
+      height: 62vh;
+      width: 39vw;
+}
+.dishparent{
+     width: 85%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+ justify-content: center; 
+    align-items: center;
+     margin: auto; 
+}
+.dishcard1{
+    height: 39vh;
+    width: 30vw;
+    margin:40px auto;
+    line-height: 45px;
+}
+.dishcard1 i{
+    color: #b49383;
+}
+.dishcard1 h2{
+    font-size: 36px;
+    font-family: "Dancing Script", serif;
+    font-weight: 500;
+    color: #b49383;
+}
+.dishcard1 h1{
+    font-size: 48px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #232323;
+}
+.dishcard1 h3{
+    font-size: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #232323;
+}
+.dishcard1 span{
+    margin-left: 50px;
+}
+.dishcard1 P{
+    font-size: 17px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #636363;
+    letter-spacing: 1px;
+}
+.dishcard1 button{
+    height: 6vh;
+    width: 11vw;
+    border: 2px solid #b49383;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #b49383;
+    font-weight: 600;
+    background-color: white;
+    margin-top: 40px;
+}
+.dishcard1 button:hover{
+    background-color: #b49383;
+    color: white;
+}
+/* .menu */
+.menu{
+    height: 19vh;
+    width: 75%;
+    background-color: #232323;
+    margin: auto;
+    padding-top: 25px;
+    position: relative;
+}
+.menuchild{
+    width: 95%;
+    height: 16vh;
+    border: 2px solid #b49383;
+    margin: auto;
+}
+.menuchild h2{
+    height: 5vh;
+    width: 20vw;
+    background-color: #232323;
+    font-size: 36px;
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    color: #b49383;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 10%;
+}
+.menuchild h1{
+    font-size: 48px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.menuicon {
+    height: 4vh;
+    width: 10vw;
+    background-color: #232323;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+.icon i{
+    color: #b49383;
+    position: relative;
+    left: 25%;
+    margin-top: 30px;
+}
+/* streted */
+.started{
+    height: 77vh;
+    width: 21vw;
+    border: 2px solid #b49383;
+}
+.started1{
+    height: 75vh;
+    width: 19vw;
+    margin:20px auto;
+}
+.started1 h2{
+    font-size: 36px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    height: 6vh;
+    width: 7vw;
+    border: 2px solid #b49383;
+    color: #b49383;
+    text-align: center;
+    line-height: 50px;
+}
+.started1 h3{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+     font-weight: 600;
+     color: #232323;
+     display: inline-block;
+     margin-top: 10px;
+}
+.started1 p{
+    font-size: 16px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #636363;
+    font-weight: 600;
+}
+.started1 span {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #232323;
+}
+.started1{
+    line-height: 20px;
+}
+.sec{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.started1 a{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #b49383;
+    margin-top: 20px; 
+}
+.started1 a:hover{
+    border-bottom: 2px solid #b49383;
+}
+.startedchild{
+    height: 89vh;
+    width: 21vw;
+    border: 2px solid #b49383;
+    margin-top: 100px;
+}
+.started2{
+    height: 75vh;
+    width: 19vw;
+    margin:20px auto;
+}
+.started2 h2{
+    font-size: 36px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    height: 6vh;
+    width: 7vw;
+    border: 2px solid #b49383;
+    color: #b49383;
+    text-align: center;
+    line-height: 50px;
+}
+.started2 h3{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+     font-weight: 600;
+     color: #232323;
+     display: inline-block;
+     margin-top: 10px;
+}
+.started2 p{
+    font-size: 16px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #636363;
+    font-weight: 600;
+}
+.started2 span {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.started2{
+    line-height: 20px;
+}
+.sec{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.started2 a{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #b49383;
+    margin-top: 20px; 
+}
+.started2 a:hover{
+    border-bottom: 2px solid #b49383;
+}
+#startedparent{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.make{
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/reservations.jpg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 150px;
+    position: relative; 
+}
+.makeparent h2{
+      font-size: 36px;
+      font-family: "Dancing Script", serif;
+      font-weight: 600;
+      color: #b49383;
+      text-align: center;
+}
+.makeparent h1{
+    font-size: 48px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.makeparent input{
+    height: 5vh;
+    width: 15vw;
+    border: 2px solid #b49383;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    overflow-inline: none;
+}
+.makeparent select{
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid #b49383;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.makeparent select option{
+    background-color: white;
+    color: #636363;
+}
+.makeparent{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    line-height: 90px;
+    z-index: 15;
+}
+.makeparent button{
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid #b49383;
+    position:absolute;
+    left: 40%;
+    margin-top: 30px;
+    background-color: #b49383;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+.makeparent button:hover{
+    background-color: transparent;
+    color: white;
+}
+.Footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #232323;
+}
+.footerparent{
+    height: 35vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.logo >.para1{
+    font-size: 14px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #636363;
+    width: 70%;
+}
+.logo span{
+    color: #b49383;
+}
+.footertext p{
+    font-size: 17px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #636363;
+    margin-right: 60px;
+}
+.inform h2{
+    font-size: 30px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #b49383;
+}
+.inform p, .email a,.tel a{
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    color: #636363;
+    text-decoration: none;
+    line-height: 30px;
+}
